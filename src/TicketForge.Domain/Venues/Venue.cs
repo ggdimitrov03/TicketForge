@@ -7,6 +7,7 @@ public sealed class Venue
     private readonly List<Seat> _seats = [];
     public string Name { get; }
     public IReadOnlyList<Seat> Seats => _seats;
+    public int AvailableSeatsCount => _seats.Count(s => s.Status == SeatStatus.Available);
 
     public Venue(string name, int rows, int seatsPerRow)
     {

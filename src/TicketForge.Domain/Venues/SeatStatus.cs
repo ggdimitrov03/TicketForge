@@ -1,9 +1,8 @@
-namespace TicketForge.Domain.Venues
+namespace TicketForge.Domain.Venues;
+
+public enum SeatStatus
 {
-    public enum SeatStatus
-    {
-        Available,
-        Reserved,
-        Sold
-    }
+    Available,
+    Reserved,
+    Sold
 }
