@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TicketForge.Domain/TicketForge.Domain.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TicketForge.Domain.Tests/TicketForge.Domain.Tests.csproj" />
+  </Folder>
+</Solution>
